@@ -21,6 +21,8 @@ function App() {
         <Route path="/movies" element={<Movies />} />
         <Route path="/register" element={<Signin />} />
       </Route>
+
+      
       <Route path="/*" element={<Error />} />
     </Routes>
   );
